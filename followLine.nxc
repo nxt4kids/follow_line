@@ -1,0 +1,10 @@
+
+#define COLORSENSOR SENSOR_2
+#include "program.h"
+
+task main(){
+	SetSensorColorFull(IN_2);
+	while(true){
+		runProgram();
+	}
+}
